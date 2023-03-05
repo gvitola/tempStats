@@ -13,5 +13,6 @@ def read_csv(path):
     return data
 
 if __name__ == '__main__':
-  data = read_csv('./tempStats/GlobalTempAnnualCountryRecords-2.csv')
+#  data = read_csv('./tempStats/GlobalTempAnnualCountryRecords-2.csv')
+  data = read_csv('./GlobalTempAnnualCountryRecords-2.csv')
   print(data[0])

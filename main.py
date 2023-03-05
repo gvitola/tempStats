@@ -38,7 +38,7 @@ def stats_by_continent(data):
 
 def run():
 
-  data = read_csv.read_csv('./tempStats/GlobalTempAnnualCountryRecords-2.csv')
+  data = read_csv.read_csv('./GlobalTempAnnualCountryRecords-2.csv')
 
   while True:
     print("-"*41)
